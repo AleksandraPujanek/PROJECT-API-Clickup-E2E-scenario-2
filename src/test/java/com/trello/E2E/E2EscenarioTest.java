@@ -14,6 +14,8 @@ import org.junit.jupiter.api.*;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -22,11 +24,12 @@ import java.util.Map;
 import java.util.stream.Stream;
 
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
-class E2Escenario {
-    //    private static String boardId;
+class E2EscenarioTest {
+
     private static List<String> boardIds = new ArrayList<>();
     private static List<String> listIds = new ArrayList<>();
     private static List<String> cardIds = new ArrayList<>();
+    private static final Logger LOGGER = LoggerFactory.getLogger(E2EscenarioTest.class);
 
     @DisplayName("Create two boards")
     @ParameterizedTest(name = "Board name: {0}")
