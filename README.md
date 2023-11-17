@@ -1,8 +1,8 @@
-# :file_folder: PROJECT: API Clickup - E2E scenario - Java / Rest Assured
-Verification of REST API in Clickup / E2E scenario using JAVA/Rest Assured
+# :file_folder: PROJECT: API Trello - E2E scenario - Java / Rest Assured
+Verification of REST API in Trello / E2E scenario using JAVA/Rest Assured
 
 **Project scope:**
-- find, read and analyse REST API documentation for Clickup,
+- find, read and analyse REST API documentation for Trello,
 - E2E scenario:
     - create two boards,
     - create two list in board 1,
