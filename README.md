@@ -29,6 +29,6 @@ Verification of REST API in Trello / E2E scenario using JAVA/Rest Assured
 - Build steps: Invoke top-level Maven targets
 - Goals: clean test -Dtoken=TYPE_YOUR_TOKEN -Dkey=TYPE_YOUR_KEY -DmemberId=TYPE_YOUR_MEMBER_ID -DorganizationId=TYPE_YOUR_ORGANIZATION_ID
 
-**Documentation:** [REST API Clickup - documentation](https://clickup.com/api/)
+**Documentation:** [REST API Trello - documentation](https://developer.atlassian.com/cloud/trello/rest/api-group-actions/#api-group-actions)
 
-**Summary:** [Clickup - Test Report](https://drive.google.com/file/d/1IDqPa5oeFFC3cbYKoPzYdi5Bgwb4sywt/view?usp=drive_link)
+**Summary:** [Trello - Test Report](https://drive.google.com/file/d/1IDqPa5oeFFC3cbYKoPzYdi5Bgwb4sywt/view?usp=drive_link)
