@@ -25,7 +25,7 @@ Verification of REST API in Trello / E2E scenario using JAVA/Rest Assured
 - Allure Report
 
 **Jenkins configuration:**
-- Repository URL: https://github.com/AleksandraPujanek/PROJECT-API-Clickup-E2E-scenario-2
+- Repository URL: https://github.com/AleksandraPujanek/PROJECT-API-Trello-E2E-scenario-2
 - Build steps: Invoke top-level Maven targets
 - Goals: clean test -Dtoken=TYPE_YOUR_TOKEN -Dkey=TYPE_YOUR_KEY -DmemberId=TYPE_YOUR_MEMBER_ID -DorganizationId=TYPE_YOUR_ORGANIZATION_ID
 
