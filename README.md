@@ -8,12 +8,12 @@ Verification of REST API in Trello / E2E scenario using JAVA/Rest Assured
     - create two list in board 1,
     - create two cards in list 1,
     - move card 1 from list 1 to list 2,
-    - add a member to coard 1,
+    - add a member to card 1,
     - add due date to card 1,
     - archive card 1,  
     - delete the board,
 - create requests and test scripts in JAVA using Rest Assured library,
-- apply good practisies: clean up after testing activities,
+- apply good practises: clean up after testing activities,
 - run tests from Maven and Jenkins,
 - create Test Report in Allure.
 
